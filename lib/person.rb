@@ -8,7 +8,7 @@ class Person
 def initialize(hash)
   hash.each do |key, value|
     self.send(("#{key}="), value)
-    binding.pry
+    # binding.pry
   end
 end
 
